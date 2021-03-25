@@ -1,0 +1,116 @@
+body
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/bc.png);
+  background-size: cover;
+  background-position: center;
+}
+.book-form{
+  width: 350px;
+  border: 1px solid #ced4da;
+  margin: 10% auto 0;
+}
+.form-control
+{
+  margin:auto;
+
+}
+.radio-but{
+  margin: 0 20px;
+}
+.radio-but .btn{
+  margin: 20px 10px 20px 0;
+}
+.radio-but .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: aliceblue;
+    position: relative;
+    display: inline-block;
+    border: 3px solid aliceblue;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-but .btn:checked::after
+{
+  content: '';
+  background-color: #000;
+  transition: 0.5s;
+}
+.radio-but span
+{
+  color: white;
+  margin-right: 6px;
+  font-size: 15px;
+}
+.Booking-tab
+{
+  padding: 0 20px 20px;
+}
+.Booking-tab label
+{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+input::placeholder
+{
+  color: #fff !important;
+}
+.input-grp
+{
+  width: 151px;
+  display: inline-block;
+}
+.form-control
+{
+  width: 100% !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.select-date:-webkit-inner-spin-button,
+.select-date::-webkit-outter-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.select-date::-webkit-calender-picker-indicator
+{
+  background: transparent !important;
+}
+.Custom-Select
+{
+  color: #fff !important;
+  font-size: 12px !important;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.Custom-Select option
+{
+  color: #333;
+}
+.flight{
+  color: #fff !important;
+  width: 100% !important;
+  padding: 9px 0 !important;
+  font-size: 12px !important;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.flight:hover
+{
+  background: #fff !important;
+  color: #000 !important;
+  transition: 0.5s;
+}
